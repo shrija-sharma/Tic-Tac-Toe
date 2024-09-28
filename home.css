@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+.main{
+    display: flex;
+    background-image: url(tic.jpg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    border-radius: 10px;
+    /* filter: drop-shadow(10px);
+    transition: 0.3s box-shadow ease; */
+    /* background-color:  rgba(238, 130, 196, 0.4);  */
+    margin-bottom: 50px;
+    color:black;
+}
+
+.button{
+    height:60px;
+    width:200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 2rem;
+    /* text-decoration: none; */
+    background-color:blueviolet;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
