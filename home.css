@@ -1,27 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lobster&family=Pacifico&family=Poppins&display=swap');
 *{
     padding:0;
     margin:0;
 }
 .main{
     display: flex;
-    background-image: url(tic.jpg);
+    font-size: 50px;
+    background-image: url(tictactoe.jpg);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height:100vh;
 }
 h1{
     font-size: 50px;
     border-radius: 10px;
-    /* filter: drop-shadow(10px);
-    transition: 0.3s box-shadow ease; */
-    /* background-color:  rgba(238, 130, 196, 0.4);  */
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
     margin-bottom: 50px;
+    padding: 10px;
     color:black;
+    border:2px black solid;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.button{
+.link{
     height:60px;
     width:200px;
     display: flex;
@@ -30,12 +35,14 @@ h1{
     justify-content: center;
     border-radius: 50px;
     border: 2px solid black;
-    font-size: 2rem;
-    /* text-decoration: none; */
-    background-color:blueviolet;
-}
-a{
+    background-color:rgb(247, 105, 176);
+    font-size: 30px;
+    font-weight: 600;
+    font-style:italic;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
